@@ -6,7 +6,7 @@ patches:
 - patch: |-
     - op: replace
       path: /spec/template/spec/containers/0/env/0/value
-      value: yellow
+      value: green
   target:
     group: apps
     kind: Deployment
